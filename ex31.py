@@ -8,6 +8,7 @@ if door == "1":
     print("what do you do?")
     print("1.Take the cake.")
     print("2.Scream at the bear.")
+    print("3.run away.")
 
     bear = input(">")
 
@@ -15,6 +16,8 @@ if door == "1":
         print("the bear eats your face off. Good job!")
     elif bear == "2":
         print("the bear eats your legs off. Good job!")
+    elif bear == "3":
+        print("the bear is faster than you. eats your ass. Good job!")
     else:
         print(f"Well, doing {bear} is probably better.")
         print("Bear runs away.")
