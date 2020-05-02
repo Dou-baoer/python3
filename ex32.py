@@ -15,6 +15,10 @@ for fruit in fruits:
 for i in change:
 	print(f"I got {i}")
 
+# any word is useful
+for x in change:
+	print(f"I try again with x {x}")
+
 # we can also build lists, first start with an empty one
 elements = []
 
