@@ -4,6 +4,8 @@ def gold_room():
 	print("This room is full of gold. How much do you take?")
 
 	choice = input(">")	
+#	how_much = int(choice)
+#	int is to define the input musst be int number.but here is only the 0 and 1 defined.
 	if "0" in choice or "1" in choice:
 		how_much = int(choice)
 	else:
@@ -22,7 +24,7 @@ def bear_room():
 	print("The fat bear is in front of another door.")
 	print("How are you going to move the bear?")
 	bear_moved = False
-
+# while True is for build a infinite cycle. 
 	while True:
 		choice = input(">")
 
