@@ -23,10 +23,14 @@ for x in change:
 elements = []
 
 # then use the range function to do 0 to 5 counts
+# function range is return to object, not list.
 for i in range (0,6):
 	print(f"Adding {i} to the list.")
 	# append is a function that lists understand
+	# append is an the end of list to add a new object
+	# here hat aslo extend() funciton
 	elements.append(i)
+	print(elements)
 
 # now we can print them out too
 for i in elements:
