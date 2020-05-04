@@ -34,6 +34,7 @@ print("Michigan has: ", cities[states['Michigan']])
 print("Florida has: ", cities[states['Florida']])
 
 # print every states abbreviation
+# dict.item() as list return to Tuple array.
 print('-' * 10)
 for state, abbrev in list(states.items()):
 	print(f"{state} is abbreviated {abbrev}")
@@ -51,8 +52,10 @@ for state, abbrev in list(states.items()):
 
 print('-' * 10)
 # safely get a abbreviation by state that might not be there
+# dict.get(key, default=None) return to the assign value. if it not exit,  then to the default.
 state = states.get('Texas')
 
+# if not "not" is False. here is state has no Texas.
 if not state:
 	print("Sorry, no Texas.")
 
